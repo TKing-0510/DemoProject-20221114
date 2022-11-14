@@ -1,9 +1,16 @@
 plugins {
     id 'java'
+    id 'application'
 }
 
 group 'com.github.TKing-0510'
 version '1.0-SNAPSHOT'
+
+compileJava.options.encoding = 'UTF-8'
+
+application {
+    mainClassName 'com.github.TKing0510.Main'
+}
 
 repositories {
     mavenCentral()

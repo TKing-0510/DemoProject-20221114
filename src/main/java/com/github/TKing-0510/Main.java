@@ -1,4 +1,4 @@
-package com.github.TKing-0510;
+package com.github.TKing0510;
 
 public class Main {
     public static void main(String[] args) {
